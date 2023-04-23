@@ -1,1 +1,89 @@
 /* your code here */
+body {
+	background: #10e37f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product {
+	display: flex;
+	background: white;
+	width: 60%;
+}
+
+.product__photo {
+	background: white;
+	width: 40%;
+	margin-left: -5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.photo-main {
+	background: #b5e93f;
+}
+
+.fa-share-alt {
+	margin: 10px;
+	color: white;
+}
+
+.fa-heart-o {
+	margin: 10px;
+	color: white;
+	float: right;
+}
+
+.photo-album ul {
+	display: flex;
+	list-style: none;
+	float: right;
+	margin: 20px;
+}
+
+li {
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	margin-right: 10px
+}
+
+.product__info {
+	margin-left: 20px;
+}
+
+.title h1 {
+	margin-bottom: 0px;
+}
+
+.title span {
+	font-size: 11px;
+	color: lightgray;
+}
+
+.price {
+	color: #fe4243;
+}
+
+.price span {
+	font-size: 40px;
+}
+
+.variant ul {
+	display: flex;
+	list-style: none;
+}
+
+.description ul li {
+	border: none;
+}
+
+.addButton {
+	background: #fe3f40;
+	padding: 20px 30px;
+	border: none;
+	border-radius: 10px;
+	color: white;
+}
